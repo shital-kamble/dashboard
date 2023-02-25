@@ -1,0 +1,52 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Mulish", sans-serif;
+  }
+
+.dashboard {
+    padding: 20px;
+    height: 60px; 
+    background-color: black;
+    color: white;
+  }
+  input:invalid {
+    border-color: red;
+  }
+#btn{
+    margin-top: 30px;
+    margin-left: 2%;
+    margin-right:2%;
+    width:12%;
+    height:40px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    
+}
+#table{
+    margin-top: 40px;
+    margin-left: 2%;
+    margin-right:2%;
+    padding:10px;
+    height:10vh;
+    width: 96%;
+    text-align:center;
+    
+}
+
+table,tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.screen{
+    background-color:white;
+    color:black;
+}
+
+.save-btn {
+  background-color:black;
+  color: white;
+}
